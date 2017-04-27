@@ -1,0 +1,21 @@
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>hadoop-00:10020</value>
+    </property>
+
+    <property>
+        <name>mapred.job.tracker</name>
+        <value>hadoop-00:54311</value>
+    </property>
+
+    <property>
+        <name>mapred.local.dir</name>
+        <value>/mnt/hdfs1/hadoop.tmp</value>
+    </property>
+</configuration>
